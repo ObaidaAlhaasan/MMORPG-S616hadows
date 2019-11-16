@@ -46,7 +46,7 @@ app.use(bodyParser.urlencoded({extended: false})); // parse application/x-www-fo
 app.use(bodyParser.json()); // parse application/json
 app.use(cookieParser());
 // process.env.CORS_ORIGIN
-app.use(cors());
+app.use(cors({origin: '*'}));
 
 // require passport auth
 require('./auth/auth');
