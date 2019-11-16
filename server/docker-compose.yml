@@ -11,3 +11,4 @@ services:
       MONGO_INITDB_ROOT_PASSWORD: example
       MONGO_INITDB_DATABASE: mmo
 
+
